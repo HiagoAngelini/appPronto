@@ -1,0 +1,279 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+header.cabecalho div.voltar div.pointerLeft{
+    width: 10px;
+    height: 10px;
+    border:solid #FFF;
+    border-width: 6px 6px 0 0;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    margin: 12px 0 0 47%;
+}
+header.cabecalho{
+    padding: 0;
+    margin: 0;
+}
+header div.voltar, div.voltar h3, header div.nome h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+header div.voltar{
+    float: left;
+    display: inline-block;
+    width: 10%;
+    height: 5%;
+    background-color: #F06422;
+}
+header div.nome{
+    display: inline-block;
+    width: 90%;
+    height: 5%;
+    background-color: #000066;
+    text-align: center;
+}
+header.cabecalho div.nomeIndex{
+    width: 100%;
+    height: 10%;
+    background-color: #000066;
+    text-align: center;
+    color: #FFF; 
+    margin: 0;
+    padding: 0;
+}
+header.cabecalho div.nomeIndex h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header div.nomeIndex h1{
+    margin: 0;
+    padding: 0;
+}
+header h2{
+    font-family: arial;
+    font-size: 18pt;
+    color: #000;
+    text-align: center;
+}
+header{
+    margin: 0 auto;
+}
+header.busca nav.texto{
+    position: absolute;
+    margin-top:0;
+    left: 50%;
+    width: 100%;
+    margin-left: -50%;
+    text-align: center; 
+}
+header.busca nav.texto input.caixa{
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #F06422;
+    width: 150px;
+}
+header.busca nav.texto input.botao{
+	border:1px solid #000066;
+    color: #eee;
+    background-color: #000066;
+    border-radius: 6px;
+    margin-left: -3px;
+    color: #fff;
+    font: 'trebuchet ms', trebuchet;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+}
+header.busca{
+    margin-bottom: 10%; 
+}
+nav div.destaque1, div.destaque2, div.destaque3{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+}
+h1{
+    margin: 3% 0 0 0;
+    padding: 0;
+    color: #000066;
+    text-align: center;
+}
+nav{
+    margin-top: 5%;
+}
+nav div h3{
+    font-size: 12pt;
+    color: #000;
+    font-family: arial black;
+    margin: 0 20px 0 0;
+    padding: 0;
+    text-align: right;
+}
+nav div.quadrado, nav div.quadradinho, nav div.blocao, nav div.quad{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+nav div.quadrado, nav div.quadradinho{
+    width: 50%;
+}
+nav div.blocao img, nav div.quadrado img, nav div.quadradinho img, nav div.quad img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    margin: 0;
+}
+nav div figcaption.menuNome h3{
+    color: #FFF;
+    font-size: 65%;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+    display: block;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    margin: 0;
+    bottom: 11px;
+    left: 11px;
+    padding: 4px;
+    border-radius: 10px;
+}
+nav div.blocao{
+    float: left;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 40%;
+}
+nav div.quadrado{
+    float: left;
+    margin-bottom: 3%;
+    height: 40%;
+}
+nav div.quad{
+    width: 25%;
+    float: left;
+    margin-bottom: 3%;
+    height: 40%;
+}
+nav div.quadradinho{
+    float: left;
+    height: 20%;
+}
+div.descricao{
+	margin-top:1%;
+	width:70%;
+	background:#000066;
+	padding: 2%;
+	margin: 0 13% 0 13%;
+	border-radius:20px;
+}
+div.descricao p{
+	font-size:100%;
+	text-align:justify;
+	text-indent:10%;
+}
+figure.efeito, figure.efeito img, figure.efeito figcaption.desc{
+    border-radius: 10px;
+}
+figure.efeito{
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin: 0 0 2% 0;
+}
+figure.efeito img{
+    float: left;
+    margin: 0;
+}
+figure.efeito figcaption.desc{
+    display: block;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    margin: 0;
+    bottom: 11px;
+    left: 11px;
+    padding: 10px;
+}
+figure figcaption h3, p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+ }
+article.corpo p{
+    color: #000;
+    text-align: center;
+    margin: 3%;
+}
+article.corpo table.tabela{
+	margin: 0 auto 20px auto;
+}
+article.corpo table.tabela tr td{
+	border-bottom:1px solid #000;
+}
+aside.comoChegar{
+    background-color: #000066;
+    text-align: center;
+    width: 100%;
+}
+aside.comoChegar h3{
+    color: #FFF;
+    font-size: 200%;
+	margin:0;
+	padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+.autocomplete-suggestions { 
+	border: 1px solid #999;
+	background: #FFF;
+	cursor: default;
+	overflow: auto;
+	-webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+	-moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+	box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+}
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.autocomplete-no-suggestion {
+	padding: 2px 5px;
+}
+.autocomplete-selected {
+	background: #F0F0F0;
+}
+.autocomplete-suggestions strong {
+	font-weight: bold;
+	color: #000;
+}
+.autocomplete-group {
+	padding: 2px 5px;
+}
+.autocomplete-group strong {
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	display: block;
+	border-bottom: 1px solid #000;
+}

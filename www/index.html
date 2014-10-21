@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+        <title>Hello World</title>
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mockjax.js"></script>
+        <script type="text/javascript" src="js/jquery.autocomplete.js"></script>
+        <script type="text/javascript" src="js/countries.js"></script>
+        <script type="text/javascript" src="js/demo.js"></script>
+    </head>
+    <script type="text/javascript">
+        function Enviar(){
+            var busca = document.getElementById("autocomplete-dynamic");
+            if(busca.value == "Caraguatatuba"){
+                location.href="MenuCaragua.html";
+            }
+            if(busca.value == "Guarujá"){
+                location.href="menuGuaruja.html";
+            }
+            if(busca.value == "Praia Grande"){
+                location.href="menuPG.html";
+            }
+        }
+    </script>
+    <body>
+        <header class="cabecalho">
+            <div class="nomeIndex">
+                <h1>Guia Eletrônico de Turismo</h1>
+            </div>
+        </header>
+        <header class="busca">
+            <h2>Buscar Cidade</h2>
+            <nav class="texto">
+            	<form name="busca">
+                	<input class="caixa" type="text" name="busca" id="autocomplete-dynamic"/><input class="botao" type="button" src="../img/_lupa.png" onclick="Enviar();" value="buscar"/>
+                </form>
+            </nav>
+        </header>
+        <nav>
+            <a href="menuGuaruja.html"><div class="destaque1">
+                <img src="img/_guaruja.png" alt="">
+            </div></a>
+            <a href="menuCaragua.html"><div class="destaque2">
+                <img src="img/_caragua.png" alt="">
+            </div></a>
+            <a href="MenuPG.html"><div class="destaque3">
+                <img src="img/_praiagrande.png" alt="">
+            </div></a>
+        </nav>
+    </body>
+</html>

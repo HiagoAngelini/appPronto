@@ -1,0 +1,926 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width : 1920px){
+	header.busca{
+		margin-bottom: 13%;
+	}
+	header.busca h2{
+		font-size: 360%;
+	}
+	.autocomplete-suggestions { 
+		font-size:260%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 20px 15px 20px 15px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 350px;
+		font-size:260%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 20px 20px;
+		border-radius: 0 10px 10px 0;
+		font-size:260%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:430%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 80px;
+	}
+	header.cabecalho div.nome{
+		height: 80px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:410%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:28px;
+		height:28px;
+		margin: 21px 0 0 45%;
+	}
+	h1{
+		font-size: 500%;
+	}
+	div.descricao{
+		margin-top:2%;
+		width:82%;
+		padding: 2%;
+		margin: 0 7% 0 7%;
+	}
+	div.descricao p{
+		font-size:180%;;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 40%;
+		margin-bottom:1.5%;
+	}
+	nav div.quadradinho{
+		height: 20%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 12px;
+    	left: 12px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:220%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:320%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:240%;
+	}
+	aside.comoChegar{
+		height: 5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 330%;
+	}
+	article.corpo table.tabela{
+		margin: 5px auto 20px auto;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:250%
+	}
+	article.corpo table.tabela p{
+		font-size:180%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:2px solid #000;
+	}
+	div.descricao p{
+		font-size:200%;
+		text-align:justify;
+		text-indent:10%;
+	}
+}
+@media only screen and (max-width : 1366px){
+	header.busca{
+		margin-bottom: 13%;
+	}
+	header.busca h2{
+		font-size: 360%;
+	}
+	.autocomplete-suggestions { 
+		font-size:230%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 20px 15px 20px 15px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 350px;
+		font-size:230%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 20px 20px;
+		border-radius: 0 10px 10px 0;
+		font-size:230%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:430%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 80px;
+	}
+	header.cabecalho div.nome{
+		height: 80px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:410%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:28px;
+		height:28px;
+		margin: 21px 0 0 45%;
+	}
+	h1{
+		font-size: 500%;
+	}
+	div.descricao{
+		margin-top:2%;
+		width:82%;
+		padding: 2%;
+		margin: 0 7% 0 7%;
+	}
+	div.descricao p{
+		font-size:180%;;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 40%;
+		margin-bottom:1.5%;
+	}
+	nav div.quadradinho{
+		height: 20%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 12px;
+    	left: 12px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:220%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:320%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:240%;
+	}
+	aside.comoChegar{
+		height: 5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 330%;
+	}
+	article.corpo table.tabela{
+		margin: 5px auto 20px auto;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:250%
+	}
+	article.corpo table.tabela p{
+		font-size:180%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:2px solid #000;
+	}
+	div.descricao p{
+		font-size:200%;
+		text-align:justify;
+		text-indent:10%;
+	}
+}
+@media only screen and (max-width : 1080px){
+	header.busca{
+		margin-bottom: 10%;
+	}
+	header.busca h2{
+		font-size: 330%;
+	}
+	.autocomplete-suggestions { 
+		font-size:230%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 15px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 300px;
+		font-size:230%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 15px 10px;
+		border-radius: 0 10px 10px 0;
+		font-size:230%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:350%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 70px;
+	}
+	header.cabecalho div.nome{
+		height: 70px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:330%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:23px;
+		height:23px;
+		margin: 20px 0 0 45%;
+	}
+	h1{
+		font-size: 400%;
+	}
+	div.descricao{
+		margin-top:2%;
+		width:82%;
+		padding: 2%;
+		margin: 0 7% 0 7%;
+	}
+	div.descricao p{
+		font-size:180%;;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 40%;
+		margin-bottom:1.5%;
+	}
+	nav div.quadradinho{
+		height: 20%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:160%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:250%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:240%;
+	}
+	aside.comoChegar{
+		height: 5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 260%;
+	}
+	article.corpo table.tabela{
+		margin: 5px auto 20px auto;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:200%
+	}
+	article.corpo table.tabela p{
+		font-size:180%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:2px solid #000;
+	}
+}
+@media only screen and (max-width : 980px){
+	header.busca{
+		margin-bottom: 14%;
+	}
+	header.busca h2{
+		font-size: 260%;
+	}
+	.autocomplete-suggestions { 
+		font-size:160%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 15px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 200px;
+		font-size:160%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 15px 10px;
+		border-radius: 0 10px 10px 0;
+		font-size:160%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:350%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 70px;
+	}
+	header.cabecalho div.nome{
+		height: 70px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:330%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:23px;
+		height:23px;
+		margin: 20px 0 0 45%;
+	}
+	h1{
+		font-size: 400%;
+	}
+	div.descricao{
+		margin-top:2%;
+		width:82%;
+		padding: 2%;
+		margin: 0 7% 0 7%;
+	}
+	div.descricao p{
+		font-size:180%;;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 40%;
+		margin-bottom:1.5%;
+	}
+	nav div.quadradinho{
+		height: 20%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:160%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:250%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:240%;
+	}
+	aside.comoChegar{
+		height: 5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 260%;
+	}
+	article.corpo table.tabela{
+		margin: 5px auto 20px auto;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:200%
+	}
+	article.corpo table.tabela p{
+		font-size:180%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:2px solid #000;
+	}
+}
+@media only screen and (max-width : 720px){
+	header.busca{
+		margin-bottom: 16%;
+	}
+	.autocomplete-suggestions { 
+		font-size:150%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 12px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 200px;
+		font-size:150%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 12px 12px;
+		border-radius: 0 10px 10px 0;
+		font-size:150%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:180%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 33px;
+	}
+	header.cabecalho div.nome{
+		height: 33px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:170%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:10px;
+		height:10px;
+		margin: 9px 0 0 45%;
+	}
+	h1{
+		font-size: 220%;
+	}
+	div.descricao{
+	margin-top:1%;
+	width:76%;
+	background:#000066;
+	padding: 2%;
+	margin: 0 10% 0 10%;
+	border-radius:20px;
+	}
+	div.descricao p{
+		font-size:110%;
+		text-align:justify;
+		text-indent:10%;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 35%;
+		margin-bottom:2%;
+	}
+	nav div.quadradinho{
+		height: 17.5%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:70%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:120%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:100%;
+	}
+	aside.comoChegar{
+		height: 4.5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 180%;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:150%
+	}
+	article.corpo table.tabela p{
+		font-size:120%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:1px solid #000;
+	}
+}
+@media only screen and (max-width : 640px){
+	header.busca{
+		margin-bottom: 15%;
+	}
+	header.busca h2{
+		font-size:220%;
+	}
+	.autocomplete-suggestions { 
+		font-size:120%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 10px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 200px;
+		font-size:120%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 10px 10px;
+		border-radius: 0 10px 10px 0;
+		font-size:120%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:180%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 33px;
+	}
+	header.cabecalho div.nome{
+		height: 33px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:170%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:10px;
+		height:10px;
+		margin: 9px 0 0 45%;
+	}
+	h1{
+		font-size: 200%;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 35%;
+		margin-bottom:2%;
+	}
+	nav div.quadradinho{
+		height: 17.5%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:70%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:120%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:100%;
+	}
+	aside.comoChegar{
+		height: 5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 190%;
+	}
+	h1{
+		font-size:200%;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:120%
+	}
+	article.corpo table.tabela p{
+		font-size:100%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:1px solid #000;
+	}
+}
+@media only screen and (max-width : 540px){
+	header.busca{
+		margin-bottom: 16%;
+	}
+	header.busca h2{
+		font-size:170%;
+	}
+	.autocomplete-suggestions { 
+		font-size:110%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 10px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 200px;
+		font-size: 110%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 10px 10px;
+		border-radius: 0 10px 10px 0;
+		font-size: 110%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:180%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 33px;
+	}
+	header.cabecalho div.nome{
+		height: 33px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:160%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:10px;
+		height:10px;
+		margin: 9px 0 0 45%;
+	}
+	h1{
+		font-size: 200%;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 35%;
+		margin-bottom:2%;
+	}
+	nav div.quadradinho{
+		height: 17.5%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:70%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:120%;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 16px;
+		left: 16px;
+		padding: 6px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:100%;
+	}
+	aside.comoChegar{
+		height: 5.5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 160%;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:100%
+	}
+	article.corpo table.tabela p{
+		font-size:80%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:1px solid #000;
+	}
+}
+@media only screen and (max-width : 320px){
+	header.busca{
+		margin-bottom: 25%;
+	}
+	header.busca h2{
+		font-size:120%;
+	}
+	.autocomplete-suggestions { 
+		font-size:80%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 5px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 100px;
+		font-size:80%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 5px 5px;
+		border-radius: 0 10px 10px 0;
+		font-size:80%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:150%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 30px;
+	}
+	header.cabecalho div.nome{
+		height: 30px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:140%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:8px;
+		height:8px;
+		margin: 8px 0 0 40%;
+	}
+	div.descricao{
+		border-radius:10px;
+	}
+	div.descricao p{
+		font-size:42%;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 25%;
+	}
+	nav div.quadradinho{
+		height: 12.5%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:66%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:100%;
+	}
+	figure.efeito img{
+		height:100px;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 6px;
+		left: 6px;
+		padding: 5px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:60%;
+	}
+	aside.comoChegar{
+		height: 5.5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 105%;
+	}
+	h1{
+		font-size:140%;
+	}
+	article.corpo p{
+		margin:0 2% 1% 2%;
+		padding:0;
+		font-size:80%
+	}
+	article.corpo table.tabela p{
+		font-size:60%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:1px solid #000;
+	}
+}
+@media only screen and (max-width : 240px){
+	header.busca{
+		margin-bottom: 25%;
+	}
+	header.busca h2{
+		font-size:100%;
+	}
+	.autocomplete-suggestions { 
+		font-size:80%;
+	}
+	header.busca nav.texto input.caixa{
+		padding: 5px;
+		border-radius: 10px 0 0 10px;
+		border: 1px solid #F06422;
+		width: 100px;
+		font-size:80%;
+	}
+	header.busca nav.texto input.botao{
+		margin-left: -3px;
+		padding: 5px 5px;
+		border-radius: 0 10px 10px 0;
+		font-size:80%;
+	}
+	header.cabecalho div.nomeIndex h1{
+		font-size:110%;
+		text-align:center;
+	}
+	nav div.destaque1, div.destaque2, div.destaque3{
+		border-radius: 300px;
+	}
+	nav div.destaque1 img, nav div.destaque2 img, nav div.destaque3 img{
+		border-radius: 300px;
+	}
+	header.cabecalho div.voltar{
+		height: 20px;
+	}
+	header.cabecalho div.nome{
+		height: 20px;
+	}
+	header.cabecalho div.nome h1{
+		font-size:100%;
+	}
+	header.cabecalho div.voltar div.pointerLeft{
+		width:6px;
+		height:6px;
+		margin: 4px 0 0 35%;
+	}
+	h1{
+		font-size: 150%;
+	}
+	div.descricao{
+		border-radius:10px;
+	}
+	div.descricao p{
+		font-size:40%;
+	}
+	nav div.quadrado, nav div.blocao, nav div.quad{
+		height: 25%;
+	}
+	nav div.quadradinho{
+		height: 12.5%;
+	}
+	nav div.blocao figcaption.menuNome, nav div.quadrado figcaption.menuNome, nav div.quadradinho figcaption.menuNome, nav div.quad figcaption.menuNome{
+		bottom: 4px;
+    	left: 4px
+	}
+	nav div figcaption.menuNome h3{
+		font-size:50%;
+	}
+	nav div figcaption.menuNome h3.praia{
+		font-size:100%;
+	}
+	figure.efeito img{
+		height:80px;
+	}
+	figure.efeito figcaption.desc{
+		bottom: 6px;
+		left: 6px;
+		padding: 3px;
+	}
+	figure.efeito figcaption.desc h3{
+		font-size:70%;
+	}
+	aside.comoChegar{
+		height: 5.5%;
+	}
+	aside.comoChegar h3{
+    	font-size: 76%;
+	}
+	article.corpo p{
+		margin:0 0 1% 0;
+		padding:0;
+		font-size:60%
+	}
+	article.corpo table.tabela p{
+		font-size:40%;
+	}
+	article.corpo table.tabela tr td{
+		border-bottom:0.5px solid #000;
+	}
+}
